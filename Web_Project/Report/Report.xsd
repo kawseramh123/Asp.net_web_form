@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BookInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="BookID" type="xs:int" minOccurs="0" />
+                <xs:element name="BookName" type="xs:string" minOccurs="0" />
+                <xs:element name="ImageUrl" type="xs:string" minOccurs="0" />
+                <xs:element name="Rate" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BookInfo>
+    <BookID>1</BookID>
+    <BookName>Banglafdfgs</BookName>
+    <Rate>70.0000</Rate>
+  </BookInfo>
+  <BookInfo>
+    <BookID>2</BookID>
+    <BookName>English</BookName>
+    <ImageUrl>~/Image/EN.jpg</ImageUrl>
+    <Rate>36.0000</Rate>
+  </BookInfo>
+  <BookInfo>
+    <BookID>3</BookID>
+    <BookName>Math</BookName>
+    <ImageUrl>~/Image/MT.jpg</ImageUrl>
+    <Rate>50.0000</Rate>
+  </BookInfo>
+  <BookInfo>
+    <BookID>4</BookID>
+    <BookName>Science</BookName>
+    <ImageUrl>~/Image/SC.jpg</ImageUrl>
+    <Rate>30.0000</Rate>
+  </BookInfo>
+  <BookInfo>
+    <BookID>5</BookID>
+    <BookName>Social science</BookName>
+    <ImageUrl>~/Image/SS.jpg</ImageUrl>
+    <Rate>120.0000</Rate>
+  </BookInfo>
+  <BookInfo>
+    <BookID>6</BookID>
+    <BookName>ICT</BookName>
+    <ImageUrl>~/Image/1.jpg</ImageUrl>
+    <Rate>35.0000</Rate>
+  </BookInfo>
+</NewDataSet>
